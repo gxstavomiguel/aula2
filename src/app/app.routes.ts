@@ -12,7 +12,7 @@ export const routes: Routes = [
     {path: "admin", component: PrincipalComponent, children: [
         {path: "carros", component: CarroslistComponent},
         {path: "carros/new", component: CarrosdetailsComponent},
-        {path: "carros/edit/:id", component: CarroslistComponent},
+        {path: "carros/edit/:id", component: CarrosdetailsComponent},
         {path: "marcas", component: MarcaslistComponent},
         {path: "marcas/new", component: MarcasdetailsComponent},
         {path: "marcas/edit/:id", component: MarcasdetailsComponent}
